@@ -6,7 +6,7 @@ if exists("b:current_syntax")
     finish
 endif
 
-syn match keys '^\(Queue\|Ongoing\|OnHold\|Done\|Projects\):$'
+syn match keys '^\(Queue\|InTesting\|OnHold\|Done\|Projects\):$'
 syn match id '\[[^]]*\]'
 syn match date '\[r\?../../.\{2,4\}\]'
 syn match caps '#\+[^#]*#\+'
@@ -19,4 +19,3 @@ hi def link caps Constant
 hi def link exclaim Todo
 hi def link date Statement
 hi def link brackets Comment
-

@@ -6,7 +6,7 @@ if exists("b:current_syntax")
     finish
 endif
 
-syn match keys '^\(Queue\|InTesting\|OnHold\|Done\|Projects\):$'
+syn match keys '^\(Queue\|InTesting\|Rolling\|OnHold\|Done\|Projects\):$'
 syn match id '\[[^]]*\]'
 syn match date '\[r\?../../.\{2,4\}\]'
 syn match caps '#\+[^#]*#\+'

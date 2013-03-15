@@ -29,3 +29,23 @@ endif
 if has('unix')
   set listchars=tab:▸\ ,eol:¬
 endif
+
+"Rainbow Parentheses colours
+let g:rbpt_colorpairs = [
+    \ ['brown',       'goldenrod1'],
+    \ ['Darkblue',    'sienna4'],
+    \ ['darkgray',    'LightSkyBlue4'],
+    \ ['darkgreen',   'OliveDrab4'],
+    \ ['darkcyan',    'IndianRed4'],
+    \ ['darkred',     'goldenrod4'],
+    \ ['darkmagenta', 'sienna3'],
+    \ ['brown',       'LightSkyBlue3'],
+    \ ['gray',        'OliveDrab3'],
+    \ ['black',       'IndianRed3'],
+    \ ['darkmagenta', 'goldenrod3'],
+    \ ['Darkblue',    'sienna1'],
+    \ ['darkgreen',   'LightSkyBlue1'],
+    \ ['darkcyan',    'OliveDrab1'],
+    \ ['darkred',     'IndianRed1'],
+    \ ['red',         'goldenrod1'],
+    \ ]

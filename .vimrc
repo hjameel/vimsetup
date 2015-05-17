@@ -20,8 +20,7 @@ set nowrap
 "Interface
 set go=eb
 colorscheme desertmod
-set guifont=Inconsolata\ Medium\ 11
-set colorcolumn=80
+set guifont=Inconsolata\ Medium\ 12
 set list
 if has('win32')
   set listchars=tab:›\ ,eol:¬

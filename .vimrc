@@ -48,3 +48,6 @@ let g:rbpt_colorpairs = [
     \ ['darkred',     'sienna1'],
     \ ['red',         'IndianRed1'],
     \ ]
+
+"Remap escape key
+inoremap jf <Esc>

@@ -51,3 +51,6 @@ let g:rbpt_colorpairs = [
 
 "Remap escape key
 inoremap jf <Esc>
+noremap hg <Esc>
+inoremap hg <Esc>
+inoremap <Esc> <CR>

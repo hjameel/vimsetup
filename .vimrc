@@ -53,4 +53,3 @@ let g:rbpt_colorpairs = [
 inoremap jf <Esc>
 noremap hg <Esc>
 inoremap hg <Esc>
-inoremap <Esc> <CR>
